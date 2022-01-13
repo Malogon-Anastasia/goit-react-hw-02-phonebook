@@ -5,13 +5,20 @@ margin-right: 15px;
 margin-left: 15px;
 `
 export const ButtonContactForm = styled.button`
-background-color: #7cf788ab;
-cursor: pointer;
-border: 1px solid midnightblue;
-    font-weight: 700;
-    cursor: pointer;
-    
+text-decoration: none;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 40px 40px #F137A6 inset, 0 0 0 0 #F137A6;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: white;
+  transition: .15s ease-in-out;
+  cursor: pointer;
+
 &:hover {
-    transform: scale(1.1);
-  }
+  box-shadow: 0 0 10px 0 #F137A6 inset, 0 0 10px 4px #F137A6;
+  color: #F137A6;
+}
 `
