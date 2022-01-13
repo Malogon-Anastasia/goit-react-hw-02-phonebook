@@ -1,19 +1,20 @@
 import PropTypes from "prop-types";
 import ContactItem from "../ContactItem";
+import { ContactListItemStyles, ContactListStyles } from "./ContactList.styled";
 
 const ContactList = ({ contacts, deleteHandler }) => (
-  <ul className="contact-list">
+  <ContactListStyles>
     {contacts.map((contact) => (
-      <li className="contact-list__item" key={contact.id}>
+      <ContactListItemStyles key={contact.id}>
         <ContactItem
           name={contact.name}
           number={contact.number}
           id={contact.id}
           deleteHandler={deleteHandler}
         />
-      </li>
+      </ContactListItemStyles>
     ))}
-  </ul>
+  </ContactListStyles>
 );
 
 ContactList.propTypes = {

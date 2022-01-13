@@ -1,13 +1,18 @@
 import PropTypes from "prop-types";
+import { ContactButton } from "./ContactItem.styled";
 
 const ContactItem = ({ name, number, id, deleteHandler }) => (
   <>
     <span className="contact-item__data">
       {name} : {number}
     </span>
-    <button onClick={() => deleteHandler(id)} type="button" className="button">
+    <ContactButton
+      onClick={() => deleteHandler(id)}
+      type="button"
+      className="button"
+    >
       Delete
-    </button>
+    </ContactButton>
   </>
 );
 
