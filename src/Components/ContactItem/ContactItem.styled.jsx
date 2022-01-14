@@ -5,7 +5,7 @@ export const ContactButton = styled.button`
 text-decoration: none;
   display: inline-block;
   padding: 10px 20px;
-  margin: 10px 10px;
+  margin: 5px 10px;
   border-radius: 10px;
   box-shadow: 0 0 40px 40px #F137A6 inset, 0 0 0 0 #F137A6;
   font-family: 'Montserrat', sans-serif;

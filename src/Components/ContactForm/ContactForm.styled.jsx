@@ -1,11 +1,12 @@
 import styled from '@emotion/styled';
 
 export const InputStyles = styled.input`
-margin-right: 15px;
-margin-left: 15px;
+display: block;
+margin: auto;
 height: 20px;
 `
 export const ButtonContactForm = styled.button`
+margin-top: 15px;
 text-decoration: none;
   display: inline-block;
   padding: 10px 20px;
@@ -24,3 +25,4 @@ text-decoration: none;
   color: #13ab8feb;
 }
 `
+

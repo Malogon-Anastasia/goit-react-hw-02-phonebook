@@ -3,7 +3,7 @@ import { ContactButton } from "./ContactItem.styled";
 
 const ContactItem = ({ name, number, id, deleteHandler }) => (
   <>
-    <span className="contact-item__data">
+    <span>
       {name} : {number}
     </span>
     <ContactButton
